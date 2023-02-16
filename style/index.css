@@ -1,0 +1,248 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.page-header {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 35px 90px;
+   
+}
+.main-nav {
+    display: flex;
+}
+.logo {
+    width: 197px;
+    margin-right: 60px;
+}
+.site-nav { 
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 270px;
+}
+.site-nav-item {
+    margin-top: 20px;
+}
+.site-nav-item a {
+    text-decoration: none;
+    
+}
+.search {
+    margin-top: 25px;
+    width: 20px;
+    margin-right: 10px;
+   margin-left: auto;
+}
+.main-page {
+   width: 1100px;
+   margin: 0  auto;
+}
+.promo {
+    margin-bottom: 110px;
+    
+}
+.head-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #303030;
+    margin-top: 0;
+    margin-bottom: 35px;
+    margin-left: 30px;
+}
+.photo-girl {
+    margin: 0 auto; 
+    }
+.quote {
+ 
+     padding: 45px 0px;   
+     margin: 0 auto 110px
+}
+blockquote {
+    margin: 0 auto;
+    width: 700px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+.Doctor {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.fact-1{
+    display: flex;
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+.fact-1-container {
+   
+    width: 560px;
+    flex-direction: row-reverse;
+   
+} 
+.fact-1 h2 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 55px;
+    color: #A4C58C;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    text-underline-position: under;
+    margin-top: 0px;
+    margin-bottom:30px;   
+}
+.fact-1 img {
+    width: 420px;
+}
+.fact-2 {
+    display: flex;
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
+    
+    justify-content: space-between;
+}
+.fact-2 h2 {font-weight: 400;
+    font-size: 28px;
+    line-height: 55px;
+    color: #A4C58C;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    text-underline-position: under;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.fact-2 img {
+    width: 420px; 
+}
+.fact-2-container {
+    width: 560px;
+    flex-direction: row-reverse;
+}
+.symptom {
+    margin-bottom: 110px;
+    display: flex;
+}
+.symptom-container {
+    width: 600px
+}
+.symptom h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #303030;
+    margin-bottom:  90px;
+}
+.symptom img {
+    width: 500px;
+    justify-content: space-between;
+}
+.symptom-list {
+  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #303030;
+}
+.symptom-list-item {
+    margin-top: 65px;
+    margin-bottom: 25px;
+}
+
+input {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 500px;
+    height: 60px;
+    background: #7EB252;
+    margin: 0 auto;
+}
+.composition {
+    width: 930px; 
+    margin: 0 auto;
+}
+.composition h2 {
+    margin-top: 0px;
+    margin-bottom: 90px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #303030;
+}
+.composition-container {
+    display: flex;
+}
+.active-photo {
+    
+    width: 740px;
+    margin-right: 20px;
+}
+.composition-photo {
+    margin: 0;
+    padding: 0;
+}
+.composition-photo-item {
+    margin-bottom: 20px;
+    list-style: none;
+    width: 170px;
+    
+}
+.composition-photo-item:last-child {
+    margin-bottom: 0;
+}
+footer {
+    background: #F6F9F3;
+    margin-top: 110px;
+    padding: 90px 0;
+}
+.footer-container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 90px; 
+    display: flex;
+}
+.first-container {
+    width: 210px;
+    margin-right: 185px;
+}
+.first-container a {
+    text-decoration-line: none;
+}
+.second-container {
+    display: flex;
+    justify-content: space-between;
+    width: 705px;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+.second-container a {
+    text-decoration-line: none;
+}
+.second-container li {
+   list-style: none;
+   width: 175px;
+}
+.second-container li:last-child {
+    margin-right: 0px;
+}
